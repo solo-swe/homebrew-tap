@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.32.0"
+  version "0.33.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.32.0/atm-0.32.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6662eaabf1d1c839b87747f1455d0c2dfe43b6c6ecf3f77861b90b17c03553fe"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0229f204d4c5da74579703fd6aa5fe3e7ad631c3599c7c6c3bdc91aa64371a5e"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.32.0/atm-0.32.0-x86_64-apple-darwin.tar.gz"
-      sha256 "01640181324a31f148a2c2f38ec41c5d12b78c3481b5e9c500520785b07c3f10"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-x86_64-apple-darwin.tar.gz"
+      sha256 "747fb931c7eec9e91f5ebacdb0a8ad4151124b29eb93f1ebb7f37e173bcdb587"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.32.0/atm-0.32.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5d05f00e92394a9530ca41c64d127fb21667ee6bc6794ea1184ef72df4c20c29"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b0f2994098144e6f950e4c03a7e86f8312580f6fe73d1c2b0697adbb458897ca"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.32.0/atm-0.32.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eecfafd2c907bc7b936676788cafaad563a403fa3d4b012ff312ed3d8925e7b1"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "abce8daef8acc67eb4b919d58ca4c0bc8a2bb19bd0812b1e650845f192c5fbc7"
     end
   end
 
