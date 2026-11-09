@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.33.0"
+  version "0.34.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0229f204d4c5da74579703fd6aa5fe3e7ad631c3599c7c6c3bdc91aa64371a5e"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-aarch64-apple-darwin.tar.gz"
+      sha256 "554568b1efb77478902750753e3d6384beeff27d9ec62317eb2bb494bd515725"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-x86_64-apple-darwin.tar.gz"
-      sha256 "747fb931c7eec9e91f5ebacdb0a8ad4151124b29eb93f1ebb7f37e173bcdb587"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7a0bdde7f271f0f700736ee3e95b96d175e28ee76013b2e856e4381bffd1a6ef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b0f2994098144e6f950e4c03a7e86f8312580f6fe73d1c2b0697adbb458897ca"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5dd757a7d4261fc255a67b40b34fc7b42eb6a5f50fe1ac14b6abf2ecc142c404"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.33.0/atm-0.33.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "abce8daef8acc67eb4b919d58ca4c0bc8a2bb19bd0812b1e650845f192c5fbc7"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "33e49c1c499152ef68ab8d4d858e6060249df244c79eb071bc46379713828beb"
     end
   end
 
