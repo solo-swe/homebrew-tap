@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.34.0"
+  version "0.35.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-aarch64-apple-darwin.tar.gz"
-      sha256 "554568b1efb77478902750753e3d6384beeff27d9ec62317eb2bb494bd515725"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.35.0/atm-0.35.0-aarch64-apple-darwin.tar.gz"
+      sha256 "1c59ff090b8ddb8b513bf67e0d45b60cab1dbf6b30ca74d40a801288bc5fbc19"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7a0bdde7f271f0f700736ee3e95b96d175e28ee76013b2e856e4381bffd1a6ef"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.35.0/atm-0.35.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fbe30d320cdc5e411ea41b7412de8ebc9d5d3863ae4392e7880df70ee0249037"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5dd757a7d4261fc255a67b40b34fc7b42eb6a5f50fe1ac14b6abf2ecc142c404"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.35.0/atm-0.35.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a6a2297043c9e4fa95c9d4a7d84078b15e06679e8c656373a0750a8960cc0425"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.34.0/atm-0.34.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "33e49c1c499152ef68ab8d4d858e6060249df244c79eb071bc46379713828beb"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.35.0/atm-0.35.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "87343224fe450d9d5e80146a7e2e93a29fecf3bf6785b7b55aa3856b28f89953"
     end
   end
 

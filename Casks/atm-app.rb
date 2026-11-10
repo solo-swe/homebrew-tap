@@ -1,7 +1,7 @@
 # Written by agentic-task-manager's release (packaging/homebrew-cask.sh): don't edit it by hand.
 cask "atm-app" do
-  version "0.34.0"
-  sha256 "6647b1e1ceccf81f8de1ccd1fcfb5072366ff5103cc7f7e443c2392793c9ea52"
+  version "0.35.0"
+  sha256 "96090b26ddccfcaa9ee2fd2547fde4946e28bb818195ca2cd83f8134137f817e"
 
   url "https://github.com/solo-swe/agentic-task-manager/releases/download/v#{version}/atm-app-#{version}-universal.dmg"
   name "atm"
@@ -10,6 +10,9 @@ cask "atm-app" do
 
   # Big Sur (the app's minimum) is older than any macOS Homebrew runs on
   depends_on :macos
+
+  # The app updates itself (T-483), its atm CLI with it: brew leaves an installed one alone
+  auto_updates true
 
   app "atm.app"
   # The app's own atm CLI goes on PATH: the formula's would be a second one
