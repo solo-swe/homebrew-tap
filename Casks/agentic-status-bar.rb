@@ -1,6 +1,6 @@
 cask "agentic-status-bar" do
-  version "0.3.0"
-  sha256 "cbdb33e89010a5b9a84f1a8f67e586c0618e4d4997fa05c410ff0fb6c30aa03e"
+  version "0.3.1"
+  sha256 "bc711072c4c86bc09217789e15ad33cc07ce4a78144afe2b9c1ae41b4d6cc405"
 
   url "https://github.com/solo-swe/agentic-status-bar/releases/download/v#{version}/agentic-status-bar-#{version}.zip"
   name "Agentic Status Bar"
