@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.36.0"
+  version "0.37.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.36.0/atm-0.36.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ab5562853b8d41dcba3cae033943b5bccd0aeb3873f1c4d254ac1a755be6b9e4"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2c5c3eaf4985ed95f2b7e66df5886ff2972be792b566c006c6a21def7902c433"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.36.0/atm-0.36.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e95d4548a3269ae922f96968b6f93f1d630963d514b059af657f293abfc0add6"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-x86_64-apple-darwin.tar.gz"
+      sha256 "02314d2f122fc86e4fd5fa64d7715f9c1c212a68e7403e6873173365a7364670"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.36.0/atm-0.36.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "39f0ca1dd9f24249fc23e7ec3ef8030a460fe30bf7e75c054c4825f015f3ce71"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d5358e41b53f47a845a57790e59382e03643cf34b41437cde6f611fbcf1af36c"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.36.0/atm-0.36.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "079323f2bd32e57a98b1494da36b3258a414e8433368f22a1bc9f0fe9a862708"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0fd740e43685e757ba8de09db1cbcc8e5dc9d63a77d874fc3ff0192a2bc781f3"
     end
   end
 

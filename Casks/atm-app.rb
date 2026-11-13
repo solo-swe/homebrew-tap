@@ -1,10 +1,10 @@
 # Written by agentic-task-manager's release (packaging/homebrew-cask.sh): don't edit it by hand.
 cask "atm-app" do
-  version "0.36.0"
-  sha256 "608f28904faccf7002be1afb0d6c91605d5e31722abd6521f9c714b6b76b6df8"
+  version "0.37.0"
+  sha256 "98eac827a492ee65103250b32263b4c68d17bca52cd54f6da634eb2b8568f30a"
 
   url "https://github.com/solo-swe/agentic-task-manager/releases/download/v#{version}/atm-app-#{version}-universal.dmg"
-  name "atm"
+  name "Agentic Task Manager"
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
 
@@ -14,9 +14,9 @@ cask "atm-app" do
   # The app updates itself (T-483), its atm CLI with it: brew leaves an installed one alone
   auto_updates true
 
-  app "atm.app"
+  app "Agentic Task Manager.app"
   # The app's own atm CLI goes on PATH: the formula's would be a second one
-  binary "#{appdir}/atm.app/Contents/MacOS/atm"
+  binary "#{appdir}/Agentic Task Manager.app/Contents/MacOS/atm"
 
   caveats <<~CAVEATS
     The app brings its own atm CLI. If the atm formula is installed, uninstall it
