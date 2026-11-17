@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.38.0"
+  version "0.39.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ad6dd789f5e7dd1f0ec895ffd8e91acd18413a8c9ac02d6aa9743b437a4cbffc"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.39.0/atm-0.39.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fe2320feb798bf087eb5388200cb6779e37725914e111ad622684caf94875424"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-x86_64-apple-darwin.tar.gz"
-      sha256 "84d822ef805df11b5ee42a4ec5877a0fe1dbcb33a2caeacee382870cd06198fe"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.39.0/atm-0.39.0-x86_64-apple-darwin.tar.gz"
+      sha256 "70bbb90c8e8c1689756f470b17927dbe6910b777327b331289907ff8df5424f2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bb0ebd214acfcdb78ac7fdcaf8c07b0a010cb443fc1905a013939d750ab1bc22"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.39.0/atm-0.39.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b733a55c04879412895f34050d7acfc79cbfadb5fc7f7d51fe1428786f1d694a"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "15a88576d06201b4ef54beb81002e47341ddf0d250e959188a79b0b11e29a2fd"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.39.0/atm-0.39.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7507089d92143f608e1cc67b90dfe42e36da38f80e21fc713b205bf94c048d8f"
     end
   end
 
