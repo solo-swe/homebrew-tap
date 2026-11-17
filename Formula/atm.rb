@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.37.0"
+  version "0.38.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2c5c3eaf4985ed95f2b7e66df5886ff2972be792b566c006c6a21def7902c433"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ad6dd789f5e7dd1f0ec895ffd8e91acd18413a8c9ac02d6aa9743b437a4cbffc"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-x86_64-apple-darwin.tar.gz"
-      sha256 "02314d2f122fc86e4fd5fa64d7715f9c1c212a68e7403e6873173365a7364670"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-x86_64-apple-darwin.tar.gz"
+      sha256 "84d822ef805df11b5ee42a4ec5877a0fe1dbcb33a2caeacee382870cd06198fe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d5358e41b53f47a845a57790e59382e03643cf34b41437cde6f611fbcf1af36c"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bb0ebd214acfcdb78ac7fdcaf8c07b0a010cb443fc1905a013939d750ab1bc22"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.37.0/atm-0.37.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0fd740e43685e757ba8de09db1cbcc8e5dc9d63a77d874fc3ff0192a2bc781f3"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.38.0/atm-0.38.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "15a88576d06201b4ef54beb81002e47341ddf0d250e959188a79b0b11e29a2fd"
     end
   end
 

@@ -1,7 +1,7 @@
 # Written by agentic-task-manager's release (packaging/homebrew-cask.sh): don't edit it by hand.
 cask "atm-app" do
-  version "0.37.0"
-  sha256 "98eac827a492ee65103250b32263b4c68d17bca52cd54f6da634eb2b8568f30a"
+  version "0.38.0"
+  sha256 "621cc20051d95c2597ad95ea072df17ac3ecd2b19842442fe8736c467e065055"
 
   url "https://github.com/solo-swe/agentic-task-manager/releases/download/v#{version}/atm-app-#{version}-universal.dmg"
   name "Agentic Task Manager"
