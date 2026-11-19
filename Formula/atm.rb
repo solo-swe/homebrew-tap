@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.40.0"
+  version "0.41.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.40.0/atm-0.40.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0b8cbe49d2de29275f58c9ef1bce05f08f1d866803b39abf0741706d520c8971"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.41.0/atm-0.41.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3b0586bf99bdc14896de42d2401fc819d598871cbb54eabf4d73ed72f69ec229"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.40.0/atm-0.40.0-x86_64-apple-darwin.tar.gz"
-      sha256 "62552905d00ae58891f7d766cae82c9c35955609324930e31dc7e5beafcb2ab4"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.41.0/atm-0.41.0-x86_64-apple-darwin.tar.gz"
+      sha256 "90b191f7bbd156d5ccfd7c2ec861048f9536fb0ab001d29783ddc16cf960c0e2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.40.0/atm-0.40.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b76ec4c6e7ebfa8a4bb8178fa79bf44767a643179e47c0b012c9668ebb66ab77"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.41.0/atm-0.41.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "94af2e66084793c5848dc299e8bfbc0666c008621434a8f5e740befe58fc0be2"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.40.0/atm-0.40.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2b6ea135f8b2d4fcdf8e9d7d54f780e3691221f3f9431f88b6e58195cc13177d"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.41.0/atm-0.41.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1735f34613bb84554bcb3dfaee56c06a26d0bac2efcd72ea82efa640bae910c5"
     end
   end
 
