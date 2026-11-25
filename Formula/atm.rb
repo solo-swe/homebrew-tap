@@ -2,28 +2,28 @@
 class Atm < Formula
   desc "Agentic Task Manager: file-based tasks for agentic development, and their dashboard"
   homepage "https://github.com/solo-swe/agentic-task-manager"
-  version "0.43.0"
+  version "0.44.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.43.0/atm-0.43.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a5c5452d0b8c0087ec011c8484d2a287b69ee9ec7deedc077ce8969bd76807c6"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.44.0/atm-0.44.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e61eead58ed255ce9800fa804ce1f14bdab1c84cbb74d4904856fe4d745111fb"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.43.0/atm-0.43.0-x86_64-apple-darwin.tar.gz"
-      sha256 "13fede9c82434ddcfb1a906ee09ba1611cf8ab25ade9ee3d8c0263bd1a2be7bc"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.44.0/atm-0.44.0-x86_64-apple-darwin.tar.gz"
+      sha256 "abe20ceaeb63fb1a4203b29975343d10695eb4fe3e8068e2b4c4b7148626fa94"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.43.0/atm-0.43.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "63f9a44bd8ead146833e055ff9a224267a40e327c7f29fbd8ae41571fc110da6"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.44.0/atm-0.44.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b3592d62fad44707eee330abfa5cd490c0214578cfc6c07e166edfd244f3e8f7"
     end
     on_intel do
-      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.43.0/atm-0.43.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8b24381803b33aff5165d7e07334ee35036e7e31153268cddad3066e6dc2bde2"
+      url "https://github.com/solo-swe/agentic-task-manager/releases/download/v0.44.0/atm-0.44.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f715c09c520cfd93a4864b6c9c9c849d1d2af69cb72e356143df5035c33b9096"
     end
   end
 
